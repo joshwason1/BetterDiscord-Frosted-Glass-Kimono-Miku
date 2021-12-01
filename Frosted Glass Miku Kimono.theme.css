@@ -1,0 +1,50 @@
+/**
+ * @name Frosted Glass Miku Kimono
+ * @author Gibbu#1211
+ * @version 2.0.0
+ * @description Display your picture of choice with adjustable blur and brightness.
+ * @source https://github.com/DiscordStyles/FrostedGlass
+ * @invite ZHthyCw
+ * @donate https://paypal.me/IanRGibson
+ * @website https://gibbu.me
+ * @authorId 174868361040232448
+*/
+
+@import url('https://joshwason1.github.io/BetterDiscord-Frosted-Glass-Kimono-Miku/FrostedGlass.css');
+@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
+
+:root {
+  --background-image: url('https://joshwason1.github.io/BetterDiscord-Frosted-Glass-Kimono-Miku/background.jpg');
+  --background-image-blur: 0px;
+  --background-image-size: cover;
+  --background-image-position: center;
+  --popout-modal-image: var(--background-image);
+  --popout-modal-blur: 5px;
+  --popout-modal-size: cover;
+  --popout-modal-position: center;
+  --home-button-image: url('https://gibbu.github.io/BetterDiscord-Themes/FrostedGlass/assets/discord.svg');
+  --home-button-size: cover;
+  --home-button-position: center;
+  --serverlist-brightness: 0.8;
+  --left-brightness: 0.7;
+  --middle-brightness: 0.6;
+  --right-brightness: 0.2;
+  --popout-modal-brightness: 0.7;
+  --gradient-primary: 38,135,179;
+  --gradient-secondary: 12,104,177;
+  --link-colour: #00F7FF;
+  --scrollbar-colour: rgb(255,255,255,0.1);
+  --gradient-direction: 320deg;
+  --tint-colour: 0,0,0;
+  --tint-brightness: 0.1;
+  --font: Whitney;
+  --window-padding: 0px;
+  --window-roundness: 0px;
+  --update-notice-1: none;
+}
+
+/* Any custom CSS below here */
+.button-1YfofB.buttonColor-7qQbGO, .button-1YfofB .buttonColor-7qQbGO {
+    background: var(--white);
+}
+
